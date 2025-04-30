@@ -65,7 +65,7 @@
     height: 100%;
     background-color: #d4a762;
     z-index: 0;
-    transition: all 1s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 
 .block:hover::before {
@@ -113,19 +113,7 @@
 
 .block:hover .block-paragraph {
     color: #fff;
-}
-
-.block-btn {
-    background-color: #d4a762;
-    padding: 8px 24px;
-    border: none;
-    border-radius: 20px;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0 auto;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 14.5px;
-    transition: all 0.2s ease-in-out;
+    transition-delay: 0.3s;
 }
 
 .block-btn {
@@ -156,7 +144,8 @@
     cursor: pointer;
     font-weight: 600;
     font-size: 14.5px;
-    transition: all 0.2s ease-in-out;
+    transition: all 1s ease-in-out;
+  
 }
 
 .block:hover .block-btn:hover {
@@ -167,6 +156,7 @@
 .block:hover .block-btn {
     background-color: rgb(253, 253, 253);
     color: #000000;
+    transition-delay: 0.5s;
 }
 
 /* --------media------query */
