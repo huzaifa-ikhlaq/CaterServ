@@ -156,7 +156,6 @@
 .block:hover .block-btn {
     background-color: rgb(253, 253, 253);
     color: #000000;
-    transition-delay: 0.5s;
 }
 
 /* --------media------query */
